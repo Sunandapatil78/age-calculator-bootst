@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+
+  
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body
+    class="bg-light d-flex align-items-center justify-content-center min-vh-100 rounded-start border border-start-0"
+  >
+    <div class="bg-info p-5 rounded-end-3 rounded-start">
+      <h1 style="font-style: italic" class="h2 fw-bolder mb-4">
+        Age Calculator
+      </h1>
+
+      <div class="mb-3">
+        <label style="font-style: italic" for="birthdate" class="form-label"
+          >Enter your birthdate:</label
+        >
+        <input type="date" id="birthdate" class="form-control" />
+      </div>
+
+      <div class="text-center">
+        <button onclick="calculateAge" class="btn btn-primary">
+          Calculate Age
+        </button>
+        <button onclick="clearInput" class="btn btn-danger" type="button">
+          Clear
+        </button>
+      </div>
+    </div>
+</body>
+</html>
+
